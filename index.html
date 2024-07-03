@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florian Bahr - Applying for Marketing Domain Data Owner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        .card {
+            background-color: #2a2a2a;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #84B414;
+        }
+        #fullCV {
+            display: none;
+            background-color: #ffffff;
+            color: #000000;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body class="font-sans">
+    <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Profile Card -->
+            <div class="card col-span-1">
+                <img src="florian-bahr.jpg" alt="Florian Bahr" class="rounded-full mx-auto mb-4 w-32 h-32">
+                <h1 class="text-2xl font-bold text-center mb-2">Florian Bahr</h1>
+                <p class="text-center text-gray-400 mb-4">Applying for: Marketing Domain Data Owner</p>
+                <button id="contactMeBtn" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mb-2">
+                    Contact Me
+                </button>
+                <button id="viewCVBtn" class="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
+                    View Full CV
+                </button>
+                <div class="mt-4">
+                    <p class="text-gray-400"><span class="highlight">Email:</span> Florian.Bahr@gmx.de</p>
+                    <p class="text-gray-400"><span class="highlight">Phone:</span> +49 176 623 483 35</p>
+                </div>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="col-span-2">
+                <!-- Experience Card -->
+                <div class="card">
+                    <h2 class="text-xl font-bold mb-4 highlight">Professional Experience</h2>
+                    <div class="mb-4">
+                        <h3 class="font-semibold">Authorized Officer / Head of Back Office / AI Integration</h3>
+                        <p class="text-gray-400">Mittler Report Verlag | 01/2024 - Present</p>
+                        <ul class="list-disc list-inside text-gray-400 mt-2">
+                            <li>Project Lead for VM (CRM Software) since August 2023</li>
+                            <li>Led digital transformation initiatives</li>
+                            <li>Implemented AI tools for workflow optimization</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold">Lead of Ad Management / IT Administration / AI Integration</h3>
+                        <p class="text-gray-400">Mittler Report Verlag | 07/2022 - 01/2024</p>
+                        <ul class="list-disc list-inside text-gray-400 mt-2">
+                            <li>Managed backoffice procedures for ad bookings</li>
+                            <li>Oversaw IT administration</li>
+                            <li>Integrated AI solutions into business processes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skills Card -->
+                <div class="card">
+                    <h2 class="text-xl font-bold mb-4 highlight">Key Skills</h2>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <p class="font-semibold">Data Analysis</p>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-semibold">AI Integration</p>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-semibold">Project Management</p>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-semibold">Marketing & PR</p>
+                            <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                <div class="bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Side Projects Card -->
+            <div class="card col-span-1 md:col-span-3">
+                <h2 class="text-xl font-bold mb-4 highlight">Technical Expertise</h2>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="bg-gray-800 p-4 rounded-lg text-center">
+                        <p class="font-semibold">AI Tools</p>
+                        <p class="text-sm text-gray-400">ChatGPT, Claude, LLama</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg text-center">
+                        <p class="font-semibold">CRM Systems</p>
+                        <p class="text-sm text-gray-400">Verlagsmanager</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg text-center">
+                        <p class="font-semibold">Data Analysis</p>
+                        <p class="text-sm text-gray-400">Advanced Excel, Basic Python</p>
+                    </div>
+                    <div class="bg-gray-800 p-4 rounded-lg text-center">
+                        <p class="font-semibold">Project Management</p>
+                        <p class="text-sm text-gray-400">MS 365, Kanban</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Full CV Section -->
+        <div id="fullCV" class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">Full Curriculum Vitae - Florian Bahr</h2>
+            
+            <h3 class="text-xl font-semibold mt-4 mb-2">Professional Experience</h3>
+            <ul class="list-disc list-inside">
+                <li>01/2024 – Present: Authorized Officer / Head of Back Office / AI Integration, Mittler Report Verlag</li>
+                <li>11/2023: Head of Logistics Department (Parental Leave)</li>
+                <li>07/2022 – 01/2024: Lead of Ad Management / IT Administration / AI Integration, Mittler Report Verlag</li>
+                <li>05/2006 - 07/2022: Freelancer (PR Services + Marketing)</li>
+                <li>11/2008 - 08/2010: Student Assistant, Arbeitsgemeinschaft PVC und Umwelt, Bonn</li>
+                <li>10/2008 - 03/2010: Freelance Author, Agonist media advertising agency, Cologne</li>
+                <li>10/2007 - 10/2008: Student Assistant, Viking River Cruises AG, Cologne</li>
+                <li>06/2007 - 10/2007: Customer Management, Viking River Cruises AG, Cologne</li>
+                <li>05/2006 - 06/2007: Project Assistant, Next direct, Münster</li>
+                <li>03/2006 - 05/2006: Marketing Communications Specialist, Next Werbeagentur, Münster</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mt-4 mb-2">Education</h3>
+            <ul class="list-disc list-inside">
+                <li>10/2007 - 05/2013: Business Administration Studies, Hochschule Bonn-Rhein-Sieg, St. Augustin</li>
+                <li>08/2010 - 01/2011: Study Abroad - Business Administration, Kyungpook National University, Daegu, South Korea</li>
+                <li>08/2001 - 05/2003: Higher Commercial School, Warendorf</li>
+                <li>09/2003 - 02/2006: Apprenticeship as Marketing Communications Specialist, Next Werbeagentur, Münster</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mt-4 mb-2">Additional Qualifications</h3>
+            <ul class="list-disc list-inside">
+                <li>Languages: German (Native), English (Business fluent), Korean (Basic), Japanese (Basic)</li>
+                <li>IT Skills: AI tools (ChatGPT, Claude, LLama, etc.), CRM systems, Data Analysis (Advanced Excel, Basic Python), Project Management tools, Adobe Suite, and more</li>
+                <li>Other: Team & Project Management, Process wiki development, Driving license Class A and B</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mt-4 mb-2">Volunteer Work</h3>
+            <ul class="list-disc list-inside">
+                <li>06/2012 - 05/2013: Student Parliament Chair, Hochschule Bonn-Rhein-Sieg</li>
+                <li>09/2010 - 12/2010: English Teacher, Bukgu-Youth Center, Daegu, South Korea</li>
+                <li>06/2009 - 11/2011: Member / PR Department / Deputy Chair, AStA of Hochschule Bonn-Rhein-Sieg</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mt-4 mb-2">Interests</h3>
+            <p>Sports & Fitness, IT, Artificial Intelligence, ML, DIY projects, Cooking & Culinary (Korean cuisine), Hobby brewing, E-mobility, Travel, Gardening, Flea markets</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('viewCVBtn').addEventListener('click', function() {
+            var fullCV = document.getElementById('fullCV');
+            if (fullCV.style.display === 'none') {
+                fullCV.style.display = 'block';
+                this.textContent = 'Hide Full CV';
+            } else {
+                fullCV.style.display = 'none';
+                this.textContent = 'View Full CV';
+            }
+        });
+
+        document.getElementById('contactMeBtn').addEventListener('click', function() {
+            window.location.href = "mailto:Florian.Bahr@gmx.de?subject=Inquiry from Resume Website";
+        });
+    </script>
+</body>
+</html>
